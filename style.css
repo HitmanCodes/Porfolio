@@ -683,3 +683,11 @@ section.contact{
 .scroll-up-btn:hover{
     filter: brightness(90%);
 }
+
+.navbar .menu .selected{
+    color: rgba(0, 236, 236, 0.877);  
+}
+
+.slide-out-nav .mobile-nav .selected{
+    color: rgba(0, 236, 236, 0.877);  
+}
