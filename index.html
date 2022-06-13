@@ -8,7 +8,7 @@
     <meta name="description" content="">
 	  <link rel='icon' href="icony.ico" type='image/x-icon'>
     <meta name="author" content="">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <title>Yash Vardhan | Web Portfolio</title>
 
     <!-- Bootstrap core CSS -->
@@ -22,7 +22,7 @@
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
+    <link href="css/resume.css" rel="stylesheet">
 
   </head>
 
@@ -192,37 +192,40 @@
           <div class="subheading mb-3">Programming Languages &amp; Tools</div>
           <ul class="list-inline list-icons">
             <li class="list-inline-item">
-              <i class="devicons devicons-html5"></i>
+              <i class="devicons devicon-html5-plain"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-css3"></i>
+              <i class="devicons devicon-css3-plain"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-javascript"></i>
+              <i class="devicons devicon-javascript-plain"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-react"></i>
+              <i class="devicons devicon-react-plain"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-python"></i>
+              <i class="devicons devicon-python-plain"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-django"></i>
+              <i class="devicons devicon-django-plain"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-bootstrap"></i>
+              <i class="devicons devicon-bootstrap-plain"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-nodejs"></i>
+              <i class="devicons devicon-nodejs-plain"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-git"></i>
+              <i class="devicons devicon-flutter-plain"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-mongodb"></i>
+              <i class="devicons devicon-git-plain"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-npm"></i>
+              <i class="devicons devicon-mongodb-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicon-npm-plain"></i>
             </li>
           </ul>
 
@@ -247,7 +250,7 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a Web Developer, I also enjoy Video Editing and Content Writing. I have a keen interest in future technologies and I mostly keep track of technological advancements with podcasts and talks. I also enjoy playing guitar as a hobby and I have been a part of stage performances in cultural fests.</p>
+          <p>Apart from being a Web Developer, I also enjoy Video Editing and Content Writing. I have a keen interest in future technologies and I mostly keep track of technological advancements with podcasts and talks. I also enjoy playing guitar as a hobby and have presented myself at college cultural fests.</p>
           <p class="mb-0">I believe in observing patterns out of problems and figuring out feasible solutions. I have also trained myself in managerial skills and have actively been a part of ASCPC and E-Cell Clubs of HBTU.</p>
         </div>
       </section>
@@ -258,7 +261,10 @@
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              Engineering Virtual Program - Certificate of Completion - Forage - Goldmann Sachs</li>
+              Goldmann Sachs Engineering Virtual Program - Certificate of Completion</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Accenture Nordics Developer Program - Certificate of Completion</li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
               Serverless Firebase Development - Google Cloud Badge</li>
@@ -318,7 +324,12 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
-
+    <script>
+      $('.devicons').hover(
+       function(){ $(this).addClass('colored') },
+       function(){ $(this).removeClass('colored') }
+      );
+    </script>
   </body>
 
 </html>
